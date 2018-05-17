@@ -38,7 +38,7 @@ To understand the math and working, here's a great example: [https://mattmazur.c
 
 Optical Character Recognition is one of the most generalised problems in machine learning. The network implemented here uses the MNIST dataset and finds an accuracy of 96.34% with a modest single layer network. The activation functions used are ReLU for hidden layers and softmax for the output layer.
 
-## Using the generalised code
+## Using this code
 
 The number of layers and the size of each layer i.e. the number of nodes in each layer are to be specified as an array (list).
 
