@@ -1,6 +1,10 @@
 # OCR Neural Network from scratch
 Generalised neural network implemented from scratch in python to teach step-wise functioning of a neural network and backpropagation training algorithm. 
 
+## Introduction
+
+Most people implement machine learning problems using neural networks without quite understanding why it works and how it works. Here's a quick two minute read/implementation for anyone just trying to quickly find a way to understand the inner workings of this model.
+
 ## Understanding Neural Networks
 
 
@@ -18,7 +22,7 @@ Basic terminology:
   Basically, these weights represent the strength of each connection. Why do we need this? Because these weights help transform the input to the final output. If we find the right values for these weights, we can generate a desired output from the given inputs.
 - **Activation Function**
 
-This is simple function that is applied at each neuron that determines the output of the neuron according to its input. Say, the neuron is supposed to output '1' only when the input is positive, otherwise it should output '0'. Why do we need them now? Because they can introduce non-linearities between nodes that can help us find solutions to all kinds of problems.
+  This is simple function that is applied at each neuron that determines the output of the neuron according to its input. Say, the neuron is supposed to output '1' only when the input is positive, otherwise it should output '0'. Why do we need them now? Because they can introduce non-linearities between nodes that can help us find solutions to all kinds of problems.
 
 ## Backpropagation Intuition (Why does this work)
 
@@ -32,7 +36,7 @@ To understand the math and working, here's a great example: [https://mattmazur.c
 
 ## About the OCR implementation
 
-Optical Character Recognition is one the most generalised problems in machine learning. The network implemented here uses the MNIST dataset and finds an accuracy of 96.34% with a modest single layer network. The activation functions used are ReLU for hidden layers and softmax for the output layer.
+Optical Character Recognition is one of the most generalised problems in machine learning. The network implemented here uses the MNIST dataset and finds an accuracy of 96.34% with a modest single layer network. The activation functions used are ReLU for hidden layers and softmax for the output layer.
 
 ## Using the generalised code
 
